@@ -1,0 +1,43 @@
+/* BASIC STYLES HERE */
+
+
+.profile-picture {
+  height: 200px;
+  max-width: 100%;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+}
+
+.profile-picture.profile-picture-sm {
+  height: 64px;
+}
+
+
+.changa {
+  font-family: "Changa", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.pokemon-name {
+  color: white;
+  background-color: rgb(169, 26, 26);
+  font-weight: bold;
+  font-family: "Changa";
+  text-align: center;
+  border-radius: 8px;
+  padding: .75em;
+  margin-top: 1em;
+}
+
+.pokemon-details {
+  color: black;
+  font-family: "Changa";
+
+}
+
+.img-resize {
+  height: 40%;
+  width: 40%;
+}
